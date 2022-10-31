@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: rgba(168, 218, 220, 0.3);
+    margin-top: 20px;
+    height: 45vh;
+}
+.container h2{
+    font-size: 2rem;
+    padding-top: 40px;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+
+}
+.flexitems{
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 32.5%;
+    background: white;
+    height: fit-content;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.align img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-twitter{
+    color: steelblue;
+    text-decoration: none;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+p{
+    color: rgba(35, 34, 34, 0.5);
+}
+
+.second_temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.second_temp h2{
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    word-spacing: 2%;
+}
+.box3 p{
+    font-size: 20px;
+}
+.head{
+    text-align: center;
+}
+.box3{
+    width: 500px;
+    background: rgba(255, 241, 214, 0.4);
+    padding: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 25px;
+    font-size: 20px;
+    margin-right: 4px;
+    color:rgba(35, 34, 34, 0.5);
+}
+button{
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(91, 174, 242);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
